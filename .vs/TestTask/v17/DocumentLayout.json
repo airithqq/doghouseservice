@@ -1,0 +1,370 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\airit\\source\\repos\\TestTask\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA7C5DB-BF08-44C9-B443-C125A17BFFBA}|TestTask\\TestTask.API.csproj|c:\\users\\airit\\source\\repos\\testtask\\testtask\\controllers\\dogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA7C5DB-BF08-44C9-B443-C125A17BFFBA}|TestTask\\TestTask.API.csproj|solutionrelative:testtask\\controllers\\dogscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B64BE2-052F-432B-A7A1-B9373DCC2414}|TestTask.Infrastructure\\TestTask.Infrastructure.csproj|c:\\users\\airit\\source\\repos\\testtask\\testtask.infrastructure\\repositories\\dogsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B64BE2-052F-432B-A7A1-B9373DCC2414}|TestTask.Infrastructure\\TestTask.Infrastructure.csproj|solutionrelative:testtask.infrastructure\\repositories\\dogsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA7C5DB-BF08-44C9-B443-C125A17BFFBA}|TestTask\\TestTask.API.csproj|c:\\users\\airit\\source\\repos\\testtask\\testtask\\filters\\dogorderfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA7C5DB-BF08-44C9-B443-C125A17BFFBA}|TestTask\\TestTask.API.csproj|solutionrelative:testtask\\filters\\dogorderfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA7C5DB-BF08-44C9-B443-C125A17BFFBA}|TestTask\\TestTask.API.csproj|c:\\users\\airit\\source\\repos\\testtask\\testtask\\filters\\dogattributefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA7C5DB-BF08-44C9-B443-C125A17BFFBA}|TestTask\\TestTask.API.csproj|solutionrelative:testtask\\filters\\dogattributefilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B64BE2-052F-432B-A7A1-B9373DCC2414}|TestTask.Infrastructure\\TestTask.Infrastructure.csproj|c:\\users\\airit\\source\\repos\\testtask\\testtask.infrastructure\\interfaces\\idogsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B64BE2-052F-432B-A7A1-B9373DCC2414}|TestTask.Infrastructure\\TestTask.Infrastructure.csproj|solutionrelative:testtask.infrastructure\\interfaces\\idogsrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F02C1A25-F530-49AD-8094-D092BB1D1980}|TestTask.Domain\\TestTask.Domain.csproj|c:\\users\\airit\\source\\repos\\testtask\\testtask.domain\\models\\dogentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F02C1A25-F530-49AD-8094-D092BB1D1980}|TestTask.Domain\\TestTask.Domain.csproj|solutionrelative:testtask.domain\\models\\dogentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F02C1A25-F530-49AD-8094-D092BB1D1980}|TestTask.Domain\\TestTask.Domain.csproj|c:\\users\\airit\\source\\repos\\testtask\\testtask.domain\\models\\enum\\dogattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F02C1A25-F530-49AD-8094-D092BB1D1980}|TestTask.Domain\\TestTask.Domain.csproj|solutionrelative:testtask.domain\\models\\enum\\dogattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F02C1A25-F530-49AD-8094-D092BB1D1980}|TestTask.Domain\\TestTask.Domain.csproj|c:\\users\\airit\\source\\repos\\testtask\\testtask.domain\\models\\enum\\dogorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F02C1A25-F530-49AD-8094-D092BB1D1980}|TestTask.Domain\\TestTask.Domain.csproj|solutionrelative:testtask.domain\\models\\enum\\dogorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7BB4F6E-2DD9-42F3-8DDA-CADC4418BD11}|TestTask.Application\\TestTask.Application.csproj|c:\\users\\airit\\source\\repos\\testtask\\testtask.application\\services\\dogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7BB4F6E-2DD9-42F3-8DDA-CADC4418BD11}|TestTask.Application\\TestTask.Application.csproj|solutionrelative:testtask.application\\services\\dogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7BB4F6E-2DD9-42F3-8DDA-CADC4418BD11}|TestTask.Application\\TestTask.Application.csproj|c:\\users\\airit\\source\\repos\\testtask\\testtask.application\\mapping\\dogsmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7BB4F6E-2DD9-42F3-8DDA-CADC4418BD11}|TestTask.Application\\TestTask.Application.csproj|solutionrelative:testtask.application\\mapping\\dogsmapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7BB4F6E-2DD9-42F3-8DDA-CADC4418BD11}|TestTask.Application\\TestTask.Application.csproj|c:\\users\\airit\\source\\repos\\testtask\\testtask.application\\interfaces\\idogsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7BB4F6E-2DD9-42F3-8DDA-CADC4418BD11}|TestTask.Application\\TestTask.Application.csproj|solutionrelative:testtask.application\\interfaces\\idogsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA7C5DB-BF08-44C9-B443-C125A17BFFBA}|TestTask\\TestTask.API.csproj|c:\\users\\airit\\source\\repos\\testtask\\testtask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA7C5DB-BF08-44C9-B443-C125A17BFFBA}|TestTask\\TestTask.API.csproj|solutionrelative:testtask\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7BB4F6E-2DD9-42F3-8DDA-CADC4418BD11}|TestTask.Application\\TestTask.Application.csproj|c:\\users\\airit\\source\\repos\\testtask\\testtask.application\\dto\\createdogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7BB4F6E-2DD9-42F3-8DDA-CADC4418BD11}|TestTask.Application\\TestTask.Application.csproj|solutionrelative:testtask.application\\dto\\createdogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA7C5DB-BF08-44C9-B443-C125A17BFFBA}|TestTask\\TestTask.API.csproj|c:\\users\\airit\\source\\repos\\testtask\\testtask\\testtask.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7DA7C5DB-BF08-44C9-B443-C125A17BFFBA}|TestTask\\TestTask.API.csproj|solutionrelative:testtask\\testtask.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA7C5DB-BF08-44C9-B443-C125A17BFFBA}|TestTask\\TestTask.API.csproj|c:\\users\\airit\\source\\repos\\testtask\\testtask\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA7C5DB-BF08-44C9-B443-C125A17BFFBA}|TestTask\\TestTask.API.csproj|solutionrelative:testtask\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B64BE2-052F-432B-A7A1-B9373DCC2414}|TestTask.Infrastructure\\TestTask.Infrastructure.csproj|c:\\users\\airit\\source\\repos\\testtask\\testtask.infrastructure\\migrations\\20251027124329_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B64BE2-052F-432B-A7A1-B9373DCC2414}|TestTask.Infrastructure\\TestTask.Infrastructure.csproj|solutionrelative:testtask.infrastructure\\migrations\\20251027124329_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7BB4F6E-2DD9-42F3-8DDA-CADC4418BD11}|TestTask.Application\\TestTask.Application.csproj|c:\\users\\airit\\source\\repos\\testtask\\testtask.application\\dto\\responsedogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7BB4F6E-2DD9-42F3-8DDA-CADC4418BD11}|TestTask.Application\\TestTask.Application.csproj|solutionrelative:testtask.application\\dto\\responsedogdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19B64BE2-052F-432B-A7A1-B9373DCC2414}|TestTask.Infrastructure\\TestTask.Infrastructure.csproj|c:\\users\\airit\\source\\repos\\testtask\\testtask.infrastructure\\data\\testtaskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19B64BE2-052F-432B-A7A1-B9373DCC2414}|TestTask.Infrastructure\\TestTask.Infrastructure.csproj|solutionrelative:testtask.infrastructure\\data\\testtaskdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\airit\\source\\repos\\TestTask\\TestTask\\Migrations\\20251027121734_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestTask\\Migrations\\20251027121734_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\airit\\source\\repos\\TestTask\\TestTask\\Migrations\\20251027121509_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:TestTask\\Migrations\\20251027121509_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA7C5DB-BF08-44C9-B443-C125A17BFFBA}|TestTask\\TestTask.API.csproj|c:\\users\\airit\\source\\repos\\testtask\\testtask\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7DA7C5DB-BF08-44C9-B443-C125A17BFFBA}|TestTask\\TestTask.API.csproj|solutionrelative:testtask\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IDogsService.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Application\\Interfaces\\IDogsService.cs",
+              "RelativeDocumentMoniker": "TestTask.Application\\Interfaces\\IDogsService.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Application\\Interfaces\\IDogsService.cs",
+              "RelativeToolTip": "TestTask.Application\\Interfaces\\IDogsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:23:03.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DogEntity.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Domain\\Models\\DogEntity.cs",
+              "RelativeDocumentMoniker": "TestTask.Domain\\Models\\DogEntity.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Domain\\Models\\DogEntity.cs",
+              "RelativeToolTip": "TestTask.Domain\\Models\\DogEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:20:12.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20251027121734_Initial Migration.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask\\Migrations\\20251027121734_Initial Migration.cs",
+              "RelativeDocumentMoniker": "TestTask\\Migrations\\20251027121734_Initial Migration.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask\\Migrations\\20251027121734_Initial Migration.cs",
+              "RelativeToolTip": "TestTask\\Migrations\\20251027121734_Initial Migration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:17:34.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DogsController.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask\\Controllers\\DogsController.cs",
+              "RelativeDocumentMoniker": "TestTask\\Controllers\\DogsController.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask\\Controllers\\DogsController.cs*",
+              "RelativeToolTip": "TestTask\\Controllers\\DogsController.cs*",
+              "ViewState": "AgIAABEAAAAAAAAAAAAQwCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T11:13:41.313Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DogService.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Application\\Services\\DogService.cs",
+              "RelativeDocumentMoniker": "TestTask.Application\\Services\\DogService.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Application\\Services\\DogService.cs",
+              "RelativeToolTip": "TestTask.Application\\Services\\DogService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBoAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:56:11.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20251027121509_Initial Migration.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask\\Migrations\\20251027121509_Initial Migration.cs",
+              "RelativeDocumentMoniker": "TestTask\\Migrations\\20251027121509_Initial Migration.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask\\Migrations\\20251027121509_Initial Migration.cs",
+              "RelativeToolTip": "TestTask\\Migrations\\20251027121509_Initial Migration.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:15:09.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DogsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Infrastructure\\Repositories\\DogsRepository.cs",
+              "RelativeDocumentMoniker": "TestTask.Infrastructure\\Repositories\\DogsRepository.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Infrastructure\\Repositories\\DogsRepository.cs*",
+              "RelativeToolTip": "TestTask.Infrastructure\\Repositories\\DogsRepository.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:46:05.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask\\Program.cs",
+              "RelativeDocumentMoniker": "TestTask\\Program.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask\\Program.cs",
+              "RelativeToolTip": "TestTask\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T11:13:53.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IDogsRepository.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Infrastructure\\Interfaces\\IDogsRepository.cs",
+              "RelativeDocumentMoniker": "TestTask.Infrastructure\\Interfaces\\IDogsRepository.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Infrastructure\\Interfaces\\IDogsRepository.cs",
+              "RelativeToolTip": "TestTask.Infrastructure\\Interfaces\\IDogsRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:56:42.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DogsMapping.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Application\\Mapping\\DogsMapping.cs",
+              "RelativeDocumentMoniker": "TestTask.Application\\Mapping\\DogsMapping.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Application\\Mapping\\DogsMapping.cs",
+              "RelativeToolTip": "TestTask.Application\\Mapping\\DogsMapping.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T19:07:05.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DogAttributeFilter.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask\\Filters\\DogAttributeFilter.cs",
+              "RelativeDocumentMoniker": "TestTask\\Filters\\DogAttributeFilter.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask\\Filters\\DogAttributeFilter.cs",
+              "RelativeToolTip": "TestTask\\Filters\\DogAttributeFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T22:46:17.235Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DogOrderFilter.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask\\Filters\\DogOrderFilter.cs",
+              "RelativeDocumentMoniker": "TestTask\\Filters\\DogOrderFilter.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask\\Filters\\DogOrderFilter.cs",
+              "RelativeToolTip": "TestTask\\Filters\\DogOrderFilter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T22:46:39.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DogAttributes.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Domain\\Models\\Enum\\DogAttributes.cs",
+              "RelativeDocumentMoniker": "TestTask.Domain\\Models\\Enum\\DogAttributes.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Domain\\Models\\Enum\\DogAttributes.cs",
+              "RelativeToolTip": "TestTask.Domain\\Models\\Enum\\DogAttributes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T22:40:23.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DogOrder.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Domain\\Models\\Enum\\DogOrder.cs",
+              "RelativeDocumentMoniker": "TestTask.Domain\\Models\\Enum\\DogOrder.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Domain\\Models\\Enum\\DogOrder.cs",
+              "RelativeToolTip": "TestTask.Domain\\Models\\Enum\\DogOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T22:41:01.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TestTask.API.csproj",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask\\TestTask.API.csproj",
+              "RelativeDocumentMoniker": "TestTask\\TestTask.API.csproj",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask\\TestTask.API.csproj",
+              "RelativeToolTip": "TestTask\\TestTask.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-27T13:09:19.315Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateDogDTO.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Application\\DTO\\CreateDogDTO.cs",
+              "RelativeDocumentMoniker": "TestTask.Application\\DTO\\CreateDogDTO.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Application\\DTO\\CreateDogDTO.cs",
+              "RelativeToolTip": "TestTask.Application\\DTO\\CreateDogDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T19:03:57.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20251027124329_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Infrastructure\\Migrations\\20251027124329_InitialCreate.cs",
+              "RelativeDocumentMoniker": "TestTask.Infrastructure\\Migrations\\20251027124329_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Infrastructure\\Migrations\\20251027124329_InitialCreate.cs",
+              "RelativeToolTip": "TestTask.Infrastructure\\Migrations\\20251027124329_InitialCreate.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBEAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:43:29.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "TestTask\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask\\DependencyInjection.cs",
+              "RelativeToolTip": "TestTask\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T19:13:06.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TestTaskDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Infrastructure\\Data\\TestTaskDbContext.cs",
+              "RelativeDocumentMoniker": "TestTask.Infrastructure\\Data\\TestTaskDbContext.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Infrastructure\\Data\\TestTaskDbContext.cs",
+              "RelativeToolTip": "TestTask.Infrastructure\\Data\\TestTaskDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T12:21:58.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ResponseDogDTO.cs",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Application\\DTO\\ResponseDogDTO.cs",
+              "RelativeDocumentMoniker": "TestTask.Application\\DTO\\ResponseDogDTO.cs",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Application\\DTO\\ResponseDogDTO.cs",
+              "RelativeToolTip": "TestTask.Application\\DTO\\ResponseDogDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T19:04:42.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask\\appsettings.json",
+              "RelativeDocumentMoniker": "TestTask\\appsettings.json",
+              "ToolTip": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask\\appsettings.json",
+              "RelativeToolTip": "TestTask\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-27T11:06:26.683Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

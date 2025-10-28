@@ -1,0 +1,17 @@
+C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\obj\Debug\net8.0\TestTask.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\obj\Debug\net8.0\TestTask.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\obj\Debug\net8.0\TestTask.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\obj\Debug\net8.0\TestTask.Infrastructure.AssemblyInfo.cs
+C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\obj\Debug\net8.0\TestTask.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\bin\Debug\net8.0\TestTask.Infrastructure.deps.json
+C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\bin\Debug\net8.0\TestTask.Infrastructure.dll
+C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\bin\Debug\net8.0\TestTask.Infrastructure.pdb
+C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\bin\Debug\net8.0\TestTask.Domain.dll
+C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\bin\Debug\net8.0\TestTask.Domain.pdb
+C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\obj\Debug\net8.0\TestTask.11CE90CA.Up2Date
+C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\obj\Debug\net8.0\TestTask.Infrastructure.dll
+C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\obj\Debug\net8.0\refint\TestTask.Infrastructure.dll
+C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\obj\Debug\net8.0\TestTask.Infrastructure.pdb
+C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\obj\Debug\net8.0\ref\TestTask.Infrastructure.dll
+C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\bin\Debug\net8.0\TestTask.Infrastructure.runtimeconfig.json
+C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\obj\Debug\net8.0\TestTask.Infrastructure.genruntimeconfig.cache
