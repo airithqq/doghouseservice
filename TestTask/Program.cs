@@ -1,54 +1,57 @@
+using Microsoft.AspNetCore.RateLimiting;
 using Microsoft.EntityFrameworkCore;
+using System.Threading.RateLimiting;
 using TestTask.API;
 using TestTask.API.Filters;
 using TestTask.Infrastructure.Persistence;
-using Microsoft.AspNetCore.RateLimiting;
 
-var builder = WebApplication.CreateBuilder(args);
-
-builder.Services.AddDbContext<DogDbContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("TestTaskConnectionString"),
-b => b.MigrationsAssembly("TestTask.Infrastructure")));
-builder.Services.AddAPI(builder.Configuration);
-builder.Services.AddSwaggerGen(a =>
-a.ParameterFilter<DogAttributeFilter>());
-builder.Services.AddSwaggerGen(o =>
-o.ParameterFilter<DogOrderFilter>());
-
-builder.Services.AddRateLimiter(options =>
+public class Program
 {
-    options.AddFixedWindowLimiter("default", opt =>
+    public static void Main(string[] args)
     {
-        opt.PermitLimit = 10;
-        opt.Window = TimeSpan.FromSeconds(1);
-        opt.QueueLimit = 1;
+        var builder = WebApplication.CreateBuilder(args);
 
-    });
-    options.OnRejected = (context, token) =>
-    {
-        context.HttpContext.Response.StatusCode = StatusCodes.Status429TooManyRequests;
-        return new ValueTask();
-    };
-});
+        builder.Services.AddDbContext<DogDbContext>(options =>
+        options.UseSqlServer(builder.Configuration.GetConnectionString("TestTaskConnectionString"),
+        b => b.MigrationsAssembly("TestTask.Infrastructure")));
 
+        builder.Services.AddAPI(builder.Configuration);
+        builder.Services.AddSwaggerGen(a =>
+        a.ParameterFilter<DogAttributeFilter>());
+        builder.Services.AddSwaggerGen(o =>
+        o.ParameterFilter<DogOrderFilter>());
 
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+        builder.Services.AddRateLimiter(options =>
+        {
+            options.AddFixedWindowLimiter("default", opt =>
+            {
+                opt.PermitLimit = 10;
+                opt.Window = TimeSpan.FromSeconds(1);
+                opt.QueueLimit = 0;
+                opt.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
+            });
 
-var app = builder.Build();
+            options.OnRejected = (context, token) =>
+            {
+                context.HttpContext.Response.StatusCode = StatusCodes.Status429TooManyRequests;
+                return new ValueTask();
+            };
+        });
 
-app.UseRateLimiter();
-app.MapControllers().RequireRateLimiting("default");
+        builder.Services.AddControllers();
+        builder.Services.AddEndpointsApiExplorer();
+        builder.Services.AddSwaggerGen();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
+        var app = builder.Build();
+        app.UseRateLimiter();
+        app.MapControllers().RequireRateLimiting("default");
+        if (app.Environment.IsDevelopment())
+        {
+            app.UseSwagger();
+            app.UseSwaggerUI();
+        }
+        app.UseHttpsRedirection();
+        app.UseAuthorization();
+        app.Run();
+    }
 }
-app.UseHttpsRedirection();
-app.UseAuthorization();
-app.MapControllers();
-app.Run();
-
-public partial class Program { }

@@ -2,13 +2,12 @@
 using TestTask.Application.DTO;
 using TestTask.Infrastructure.Persistence;
 
-
 namespace TestTask.Application.Validator
 {
     public class CreateDogValidator : AbstractValidator<CreateDogDTO>
     {
         private readonly DogDbContext _context;
-        public CreateDogValidator (DogDbContext context)
+        public CreateDogValidator(DogDbContext context)
         {
             _context = context;
 
@@ -17,7 +16,7 @@ namespace TestTask.Application.Validator
                 .Length(3, 50).WithMessage("Name should be between 3 and 50 characters")
                 .Must(name =>
                 {
-                    return !_context.DogEntities.Any(d => d.Name.ToLower() == name.ToLower());
+                    return !_context.DogEntities.Any(d => string.Equals(d.Name, name, StringComparison.OrdinalIgnoreCase));
                 })
                 .WithMessage("A dog with this name already exists.");
 

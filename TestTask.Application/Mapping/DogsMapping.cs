@@ -9,7 +9,6 @@ namespace TestTask.Application.Mapping
         public DogsMapping()
         {
             CreateMap<DogEntity, ResponseDogDTO>();
-            CreateMap<CreateDogDTO, DogEntity>();
             CreateMap<CreateDogDTO, DogEntity>()
             .ConstructUsing(dto => new DogEntity(dto.Name, dto.Color, dto.TailLength,dto.Weight));
         }

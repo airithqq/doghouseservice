@@ -1,0 +1,6 @@
+{
+  "Doghouseservice, Version=1.0.1.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask",
+  "TestTask.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Application",
+  "TestTask.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Domain",
+  "TestTask.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\airit\\source\\repos\\TestTask\\TestTask.Infrastructure"
+}

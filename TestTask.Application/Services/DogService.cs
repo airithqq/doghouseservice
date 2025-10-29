@@ -1,7 +1,6 @@
 ﻿using TestTask.Domain.Models;
 using TestTask.Domain.Interfaces;
 
-
 namespace TestTask.Application.Services
 {
     public class DogService : IDogsService

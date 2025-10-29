@@ -8,6 +8,8 @@
         public int TailLength { get; set; }
         public int Weight { get; set; }
 
+        public DogEntity() { }
+
         public DogEntity(string? name, string? color, int tailLength, int weight)
         { 
             Name = name;

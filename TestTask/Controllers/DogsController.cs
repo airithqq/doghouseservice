@@ -1,6 +1,5 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
-using System;
 using System.Reflection;
 using TestTask.Application.DTO;
 using TestTask.Domain.Interfaces;
