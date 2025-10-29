@@ -177,3 +177,7 @@ C:\Users\airit\source\repos\TestTask\TestTask\obj\Debug\net8.0\Doghouseservice.d
 C:\Users\airit\source\repos\TestTask\TestTask\obj\Debug\net8.0\refint\Doghouseservice.dll
 C:\Users\airit\source\repos\TestTask\TestTask\obj\Debug\net8.0\Doghouseservice.pdb
 C:\Users\airit\source\repos\TestTask\TestTask\obj\Debug\net8.0\ref\Doghouseservice.dll
+C:\Users\airit\source\repos\TestTask\TestTask\obj\Debug\net8.0\TestTask.API.sourcelink.json
+C:\Users\airit\source\repos\TestTask\TestTask\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\airit\source\repos\TestTask\TestTask\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\airit\source\repos\TestTask\TestTask\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

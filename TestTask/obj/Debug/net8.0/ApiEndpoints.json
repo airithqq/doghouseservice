@@ -8,7 +8,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "dog",
+        "Name": "dto",
         "Type": "TestTask.Application.DTO.CreateDogDTO",
         "IsRequired": true
       }
@@ -31,6 +31,16 @@
       {
         "Name": "order",
         "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
         "IsRequired": false
       }
     ],

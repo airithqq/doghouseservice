@@ -2,20 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using TestTask.Infrastructure.Data;
+using TestTask.Infrastructure.Persistence;
 
 #nullable disable
 
 namespace TestTask.Infrastructure.Migrations
 {
-    [DbContext(typeof(TestTaskDbContext))]
-    [Migration("20251027124329_InitialCreate")]
-    partial class InitialCreate
+    [DbContext(typeof(DogDbContext))]
+    partial class DogDbContextModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

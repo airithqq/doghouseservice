@@ -1,9 +1,10 @@
-﻿using TestTask.Application.Interfaces;
+﻿using TestTask.Domain.Interfaces;
 using TestTask.Application.Services;
-using TestTask.Infrastructure.Interfaces;
 using TestTask.Infrastructure.Repositories;
 using TestTask.Application.Mapping;
-
+using TestTask.Application.Validator;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 
 namespace TestTask.API
 {
@@ -14,7 +15,8 @@ namespace TestTask.API
             services.AddScoped<IDogsRepository, DogsRepository>();
             services.AddScoped<IDogsService, DogService>();
             services.AddAutoMapper(typeof(DogsMapping).Assembly);
-
+            services.AddFluentValidationAutoValidation();
+            services.AddValidatorsFromAssemblyContaining<CreateDogValidator>();
             return services;
         }
     }

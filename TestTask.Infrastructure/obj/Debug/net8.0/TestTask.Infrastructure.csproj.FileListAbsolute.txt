@@ -15,3 +15,4 @@ C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\obj\Debug\net8.0\Te
 C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\obj\Debug\net8.0\ref\TestTask.Infrastructure.dll
 C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\bin\Debug\net8.0\TestTask.Infrastructure.runtimeconfig.json
 C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\obj\Debug\net8.0\TestTask.Infrastructure.genruntimeconfig.cache
+C:\Users\airit\source\repos\TestTask\TestTask.Infrastructure\obj\Debug\net8.0\TestTask.Infrastructure.sourcelink.json

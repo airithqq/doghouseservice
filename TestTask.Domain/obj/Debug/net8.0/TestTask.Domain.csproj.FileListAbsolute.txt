@@ -9,3 +9,5 @@ C:\Users\airit\source\repos\TestTask\TestTask.Domain\obj\Debug\net8.0\TestTask.D
 C:\Users\airit\source\repos\TestTask\TestTask.Domain\obj\Debug\net8.0\refint\TestTask.Domain.dll
 C:\Users\airit\source\repos\TestTask\TestTask.Domain\obj\Debug\net8.0\TestTask.Domain.pdb
 C:\Users\airit\source\repos\TestTask\TestTask.Domain\obj\Debug\net8.0\ref\TestTask.Domain.dll
+C:\Users\airit\source\repos\TestTask\TestTask.Domain\obj\Debug\net8.0\TestTask.Domain.sourcelink.json
+C:\Users\airit\source\repos\TestTask\TestTask.Domain\obj\Debug\net8.0\TestTask.Domain.csproj.AssemblyReference.cache

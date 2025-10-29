@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Reflection;
 using TestTask.Application.DTO;
-using TestTask.Application.Interfaces;
+using TestTask.Domain.Interfaces;
+using TestTask.Domain.Models;
 
 namespace TestTask.Controllers
 {
@@ -10,28 +12,40 @@ namespace TestTask.Controllers
     public class DogsController : ControllerBase
     {
         private readonly IDogsService _dogService;
-        public DogsController(IDogsService dogService)
+        private readonly IMapper _mapper;
+        public DogsController(IDogsService dogService, IMapper mapper)
         {
-            _dogService= dogService;
+            _dogService = dogService;
+            _mapper = mapper;
+            
         }
-        //[HttpGet("ping")]
-        //public async Task<IActionResult> Ping()
-        //{
 
-        //}
         [HttpGet("dogs")] 
-        public async Task<IActionResult> GetAll([FromQuery] string? attribute, [FromQuery] string? order)
+        public async Task<IActionResult> GetAll(
+            [FromQuery] string? attribute,
+            [FromQuery] string? order,
+            [FromQuery] int pageNumber,
+            [FromQuery] int pageSize)
         {
-            var response = await _dogService.GetAllDogsAsync(attribute,order);
-            return Ok(response);
+            var dogs = await _dogService.GetAllDogsAsync(attribute, order, pageNumber, pageSize);
+            var responseList = _mapper.Map<List<ResponseDogDTO>>(dogs);
+            return Ok(responseList);
         }
+
         [HttpPost("dog")]
-        public async Task<IActionResult> Create([FromBody] CreateDogDTO dog)
+        public async Task<IActionResult> Create([FromBody] CreateDogDTO dto)
         {
-            var created = await _dogService.CreateDogAsync(dog);
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            var dogEntity = _mapper.Map<DogEntity>(dto);
+            var created = await _dogService.CreateDogAsync(dogEntity);
+            var response = _mapper.Map<ResponseDogDTO>(created);
             if (created == null) return BadRequest("Input correct values");
             return Ok(created);
         }
+
         [HttpGet("ping")]
         public string Ping()
         {

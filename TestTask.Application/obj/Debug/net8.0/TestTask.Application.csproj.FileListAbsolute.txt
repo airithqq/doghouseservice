@@ -15,3 +15,4 @@ C:\Users\airit\source\repos\TestTask\TestTask.Application\bin\Debug\net8.0\TestT
 C:\Users\airit\source\repos\TestTask\TestTask.Application\bin\Debug\net8.0\TestTask.Domain.pdb
 C:\Users\airit\source\repos\TestTask\TestTask.Application\obj\Debug\net8.0\TestTask.Application.csproj.AssemblyReference.cache
 C:\Users\airit\source\repos\TestTask\TestTask.Application\obj\Debug\net8.0\TestTask.52EE827F.Up2Date
+C:\Users\airit\source\repos\TestTask\TestTask.Application\obj\Debug\net8.0\TestTask.Application.sourcelink.json

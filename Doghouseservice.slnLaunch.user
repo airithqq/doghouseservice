@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "Новый профиль",
+    "Projects": [
+      {
+        "Path": "TestTask\\TestTask.API.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "TestTask.Infrastructure\\TestTask.Infrastructure.csproj",
+        "Action": "StartWithoutDebugging",
+        "DebugTarget": "TestTask.Infrastructure"
+      }
+    ]
+  }
+]
